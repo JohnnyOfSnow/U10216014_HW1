@@ -1,5 +1,6 @@
 import javax.swing.JPanel;
 import java.awt.Graphics;
+import java.awt.Polygon;
 
 public class U10216014_HW1 {
 	public static void main(String[] args) {
