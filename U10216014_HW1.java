@@ -41,3 +41,17 @@ class functionOne extends AbstractionDrawFunction {
 		return result;
 	}
 }
+
+class functionTwo extends AbstractionDrawFunction {
+
+	functionTwo() {
+
+	}
+
+	@Override
+	double f(double x) {
+		double result = 0;
+		result = Math.sin(x);
+		return result;
+	}
+}
