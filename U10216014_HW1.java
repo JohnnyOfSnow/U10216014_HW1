@@ -83,3 +83,17 @@ class functionFour extends AbstractionDrawFunction {
 		return result;
 	}
 }
+
+class functionFive extends AbstractionDrawFunction {
+
+	functionFive() {
+
+	}
+
+	@Override
+	double f(double x) {
+		double result = 0;
+		result = (Math.cos(x)) + (5 * Math.sin(x));
+		return result;
+	}
+}
