@@ -1,6 +1,15 @@
+import javax.swing.JPanel;
+import java.awt.Graphics;
+
 public class U10216014_HW1 {
 	public static void main(String[] args) {
-		
+		System.out.println(new functionOne().f(2));
+		System.out.println(new functionTwo().f(Math.PI / 6));
+		System.out.println(new functionThree().f(0));
+		System.out.println(new functionFour().f(Math.PI / 4));
+		System.out.println(new functionFive().f(Math.PI / 2));
+		System.out.println(new functionSix().f(Math.PI));
+		System.out.println(new functionSeven().f(10));
 	}
 }
 
@@ -58,7 +67,7 @@ class functionTwo extends AbstractionDrawFunction {
 	}
 }
 
-// class functionTree is cos(x)
+// class functionThree is cos(x)
 class functionThree extends AbstractionDrawFunction {
 
 	functionThree() {
