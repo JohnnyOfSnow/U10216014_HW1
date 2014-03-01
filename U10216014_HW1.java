@@ -27,3 +27,17 @@ public abstract class AbstractionDrawFunction extends JPanel {
 		// To be completed by you
 	}
 }
+
+class functionOne extends AbstractionDrawFunction {
+
+	functionOne() {
+
+	}
+
+	@Override
+	double f(double x) {
+		double result = 0;
+		result = x * x;
+		return result;
+	}
+}
