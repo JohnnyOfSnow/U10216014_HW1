@@ -69,3 +69,17 @@ class functionThree extends AbstractionDrawFunction {
 		return result;
 	}
 }
+
+class functionFour extends AbstractionDrawFunction {
+
+	functionFour() {
+
+	}
+
+	@Override
+	double f(double x) {
+		double result = 0;
+		result = Math.tan(x);
+		return result;
+	}
+}
