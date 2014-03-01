@@ -55,3 +55,17 @@ class functionTwo extends AbstractionDrawFunction {
 		return result;
 	}
 }
+
+class functionThree extends AbstractionDrawFunction {
+
+	functionThree() {
+
+	}
+
+	@Override
+	double f(double x) {
+		double result = 0;
+		result = Math.cos(x);
+		return result;
+	}
+}
