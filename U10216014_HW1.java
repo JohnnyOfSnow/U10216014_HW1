@@ -28,13 +28,14 @@ public abstract class AbstractionDrawFunction extends JPanel {
 	}
 }
 
+// class functionOne is x * x
 class functionOne extends AbstractionDrawFunction {
 
 	functionOne() {
 
 	}
 
-	@Override
+	@Override // Override the AbstractionDrawFunction's f(x) method
 	double f(double x) {
 		double result = 0;
 		result = x * x;
@@ -42,13 +43,14 @@ class functionOne extends AbstractionDrawFunction {
 	}
 }
 
+// class functionTwo is sin(x)
 class functionTwo extends AbstractionDrawFunction {
 
 	functionTwo() {
 
 	}
 
-	@Override
+	@Override // Override the AbstractionDrawFunction's f(x) method
 	double f(double x) {
 		double result = 0;
 		result = Math.sin(x);
@@ -56,13 +58,14 @@ class functionTwo extends AbstractionDrawFunction {
 	}
 }
 
+// class functionTree is cos(x)
 class functionThree extends AbstractionDrawFunction {
 
 	functionThree() {
 
 	}
 
-	@Override
+	@Override // Override the AbstractionDrawFunction's f(x) method
 	double f(double x) {
 		double result = 0;
 		result = Math.cos(x);
@@ -70,13 +73,14 @@ class functionThree extends AbstractionDrawFunction {
 	}
 }
 
+// class functionFour is tan(x)
 class functionFour extends AbstractionDrawFunction {
 
 	functionFour() {
 
 	}
 
-	@Override
+	@Override // Override the AbstractionDrawFunction's f(x) method
 	double f(double x) {
 		double result = 0;
 		result = Math.tan(x);
@@ -84,13 +88,14 @@ class functionFour extends AbstractionDrawFunction {
 	}
 }
 
+// class functionFive is cos(x) + 5 * sin(x)
 class functionFive extends AbstractionDrawFunction {
 
 	functionFive() {
 
 	}
 
-	@Override
+	@Override // Override the AbstractionDrawFunction's f(x) method
 	double f(double x) {
 		double result = 0;
 		result = (Math.cos(x)) + (5 * Math.sin(x));
@@ -98,13 +103,14 @@ class functionFive extends AbstractionDrawFunction {
 	}
 }
 
+// class functionSix is 5 * cos(x) + sin(x)
 class functionSix extends AbstractionDrawFunction {
 
 	functionSix() {
 
 	}
 
-	@Override
+	@Override // Override the AbstractionDrawFunction's f(x) method
 	double f(double x) {
 		double result = 0;
 		result = (5 * Math.cos(x)) + (Math.sin(x));
@@ -112,13 +118,14 @@ class functionSix extends AbstractionDrawFunction {
 	}
 }
 
+// class functionSeven is log(x) + x * x
 class functionSeven extends AbstractionDrawFunction {
 
 	functionSeven() {
 
 	}
 
-	@Override
+	@Override // Override the AbstractionDrawFunction's f(x) method
 	double f(double x) {
 		double result = 0;
 		result = (Math.log10(x)) + (x * x);
