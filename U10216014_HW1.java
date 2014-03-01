@@ -111,3 +111,17 @@ class functionSix extends AbstractionDrawFunction {
 		return result;
 	}
 }
+
+class functionSeven extends AbstractionDrawFunction {
+
+	functionSeven() {
+
+	}
+
+	@Override
+	double f(double x) {
+		double result = 0;
+		result = (Math.log10(x)) + (x * x);
+		return result;
+	}
+}
