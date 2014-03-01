@@ -2,7 +2,6 @@ import javax.swing.JPanel;
 import java.awt.Graphics;
 import java.awt.Polygon;
 
-
 public abstract class AbstractionDrawFunction extends JPanel {
 	public static void main(String[] args) {
 		System.out.println(new functionOne().f(2));
