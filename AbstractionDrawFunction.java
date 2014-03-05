@@ -1,3 +1,14 @@
+/**
+ * Name: Johnny
+ * ID: U10216014
+ * Ex: 15.1
+ * Information: 
+ *      The exercise can let student learn Inheritance , abstract class use, and override a method.
+ *
+ *      The exercise you need to write seven fuction to inheritance the abstract class in order to 
+ *      override the method f(x) in AbstractionDrawFunction class. Then, let user can enter a number
+ *      to get answer from the seven functions.
+ */
 import javax.swing.JPanel;
 import java.awt.Graphics;
 import java.awt.Polygon;
@@ -63,12 +74,13 @@ public abstract class AbstractionDrawFunction extends JPanel {
 			try {
 				option = input2.nextInt();
 				/**
-			 	*  If the data type is int. Prehaps,
-				*	case1: The number is not in 1 ~ 7 , so user should enter a number again.
+			 	*  In try block there are two condition:
+				*  case1: The number is not in 1 ~ 7 , so user should enter a number again.
 				*  case2: The number is correct(data type is int, and in 1 ~ 7).
+				* 	  It is caught by catch (InputMismatchException ex), and execute.
 				*/
 				if(option > 0 && option < 8){
-					correct = false;
+					correct = false; 
 					System.out.println("You have decided the fuction you want to use");
 				} else {
 					System.out.print("Please a integer from 1 to 7 to choose your function: ");
