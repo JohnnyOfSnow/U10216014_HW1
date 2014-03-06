@@ -2,7 +2,7 @@ U10216014_HW1
 =============
 The exercise is 15.1
 
-Originally, it paint the three function.
+Originally, it paints the three functions.
 However, it just can enter a number to get value.
 
 Total eight class:
